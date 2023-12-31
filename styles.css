@@ -1,29 +1,33 @@
 body {
   text-align: center;
   background-color: #011F3F;
+  padding: 5px;
+  margin: 0;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin: 5%;
   color: #FEF2BF;
 }
 
 .container {
-  display: block;
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
   margin: auto;
-
 }
 
 .btn {
-  margin: 25px;
+  margin: 10px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
-  border-radius: 20%;
+  height: 150px;
+  width: 150px;
+  border: 8px solid black;
+  border-radius: 50%;
 }
 
 .game-over {
@@ -51,6 +55,8 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
-footer{
-color:yellow;
+
+footer {
+  color: yellow;
+  margin-top: 20px;
 }
